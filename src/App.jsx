@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Navbar, Home, Education, Technologies, Contact, Footer } from "./components";
+import { Navbar, Home, Education, Technologies, Projects, Contact, Footer } from "./components";
 import "./App.css";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="bg-black text-white font-display">
       <Navbar />
       <Home />
-      <Education /> <Technologies /> <Contact />
+      <Education /> <Technologies /> <Projects /> <Contact />
       <Footer />
     </div>
   );

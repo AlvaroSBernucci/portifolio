@@ -1,13 +1,13 @@
 import perfilImg from "../assets/perfil.jpg";
-import { ReactComponent as Github } from "../assets/github.svg";
-import socialMedia from "../constants";
+import { socialMedia } from "../constants";
 import MediaLinks from "./MediaLinks";
+import Button from "./Button";
 
 function Home() {
   return (
-    <section id="home" className="container m-16 grid grid-cols-2 items-center">
-      <div className="grid gap-5">
-        <h1 className="text-6xl text-white">
+    <section id="home" className="container p-4 py-16 mx-auto grid grid-cols-2 min-h-screen items-center">
+      <div className="grid gap-8">
+        <h1 className="text-6xl">
           Olá, sou <span className="text-cyan-400">Álvaro</span>
         </h1>
         <h2 className="text-3xl">
@@ -21,14 +21,18 @@ function Home() {
         </p>
         <ul className="flex gap-3">
           {socialMedia.map((item) => (
-            <MediaLinks id={item.id} href={item.href} Icon={item.Icon} />
+            <MediaLinks key={item.id} id={item.id} href={item.href} Icon={item.Icon} />
           ))}
         </ul>
+        <div className="flex gap-3">
+          <Button>Contratar</Button>
+          <Button>Contato</Button>
+        </div>
       </div>
       <img
         src={perfilImg}
         alt="Foto de perfil"
-        className="rounded-full max-w-96 max-h-96 border-cyan-400 border-2 shadow-[0_0_8px_5px_rgba(6,182,212,0.5)] justify-self-center"
+        className="rounded-full max-w-96 max-h-96 border-cyan-400 border-2 shadow-[0_0_5px_5px_rgba(6,182,212,0.5)] justify-self-center hover:shadow-[0_0_20px_20px_rgba(6,182,212,0.5)] duration-300"
       />
     </section>
   );
