@@ -11,7 +11,7 @@ function Home() {
       <div className="grid gap-8">
         <h1 className="text-6xl">
           Olá, sou{" "}
-          <span className="text-cyan-400">
+          <span className="text-cyan-400 block mt-1">
             <Typewriter words={["Álvaro", "Bernucci"]} loop={false} cursorStyle="_" cursor />
           </span>
         </h1>
