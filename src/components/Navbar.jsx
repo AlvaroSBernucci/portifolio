@@ -33,10 +33,10 @@ function Navbar() {
       </Link>
       {mobile && (
         <button onClick={() => setMobileMenu(!mobileMenu)}>
-          <MenuMobile className="w-7 h-7 fill-white" />
+          <MenuMobile className={`w-8 h-8 me-2 ${mobileMenu ? "fill-cyan-400 rotate-90 duration-300" : "fill-white"}`} />
         </button>
       )}
-      <ul className={`md:flex gap-7 ${mobileMenu ? "grid absolute -bottom-58 right-0 text-center bg-stone-950 min-h-72" : "hidden"}`}>
+      <ul className={`md:flex gap-7 ${mobileMenu ? "grid absolute -bottom-72 right-0 text-center bg-stone-950 min-h-72" : "hidden"}`}>
         <li>
           <Link
             to="home"
