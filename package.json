@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
@@ -29,6 +31,8 @@
     "globals": "^15.14.0",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "vite": "^6.0.5",
-    "vite-plugin-svgr": "^4.3.0"
-  }
+    "vite-plugin-svgr": "^4.3.0",
+    "gh-pages": "^5.0.0"
+  },
+  "homepage": "https://alvarosbernucci.github.io/portifolio"
 }
