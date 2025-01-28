@@ -3,6 +3,7 @@ import { socialMedia } from "../constants";
 import MediaLinks from "./MediaLinks";
 import Button from "./Button";
 import { Typewriter } from "react-simple-typewriter";
+import curriculo from "../assets/curriculo.pdf";
 
 function Home() {
   return (
@@ -29,8 +30,9 @@ function Home() {
           ))}
         </ul>
         <div className="flex gap-3">
-          <Button>Contratar</Button>
-          <Button>Contato</Button>
+          <a href={curriculo} download={"Curriculo - Alvaro Bernucci"}>
+            <Button>Download - Currículo</Button>
+          </a>
         </div>
       </div>
       <img
