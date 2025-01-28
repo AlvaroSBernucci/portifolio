@@ -2,13 +2,17 @@ import perfilImg from "../assets/perfil.jpg";
 import { socialMedia } from "../constants";
 import MediaLinks from "./MediaLinks";
 import Button from "./Button";
+import { Typewriter } from "react-simple-typewriter";
 
 function Home() {
   return (
-    <section id="home" className="container p-4 py-16 mx-auto grid grid-cols-2 min-h-screen items-center">
+    <section id="home" className="container p-4 py-16 mx-auto grid md:grid-cols-2 min-h-screen items-center">
       <div className="grid gap-8">
         <h1 className="text-6xl">
-          Olá, sou <span className="text-cyan-400">Álvaro</span>
+          Olá, sou{" "}
+          <span className="text-cyan-400">
+            <Typewriter words={["Álvaro", "Bernucci"]} loop={false} cursorStyle="_" cursor />
+          </span>
         </h1>
         <h2 className="text-3xl">
           Desenvolvedor <span className="text-cyan-400">FullStack</span>
@@ -32,7 +36,7 @@ function Home() {
       <img
         src={perfilImg}
         alt="Foto de perfil"
-        className="rounded-full max-w-96 max-h-96 border-cyan-400 border-2 shadow-[0_0_5px_5px_rgba(6,182,212,0.5)] justify-self-center hover:shadow-[0_0_20px_20px_rgba(6,182,212,0.5)] duration-300"
+        className="my-10 rounded-full max-w-60 max-h-60 row-start-1 md:max-w-80 md:max-h-80 xl:max-w-96 xl:max-h-96  border-cyan-400 border-2 shadow-[0_0_5px_5px_rgba(6,182,212,0.5)] justify-self-center hover:shadow-[0_0_20px_20px_rgba(6,182,212,0.5)] duration-300"
       />
     </section>
   );

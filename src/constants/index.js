@@ -149,7 +149,7 @@ const projetos = [
     name: "Gym Suplement",
     techs: ["Rails", "JavaScript", "Bootstrap", "PostgreSQL"],
     img: gymSupImg,
-    src: "https://alvarosbernucci.github.io/Projeto-Origamid-JS/",
+    src: "https://gymsuplement-af42cc3da84f.herokuapp.com/",
   },
   {
     id: 4,
