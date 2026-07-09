@@ -14,10 +14,22 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
+    company: "Feluma",
+    role: "Desenvolvedor Full Stack",
+    period: "Jun 2025 – Atual",
+    isCurrent: true,
+    highlights: [
+      "Atuo no desenvolvimento, arquitetura e sustentação de sistemas educacionais críticos na Fundação Educacional Lucas Machado, com responsabilidade integral por soluções full stack de ponta a ponta — da concepção de interfaces à gestão autônoma da infraestrutura em nuvem.",
+      "Infraestrutura e Banco de Dados (AWS): gerencio e monitoro os serviços em nuvem, garantindo alta disponibilidade e performance, com intervenções diretas, manutenções críticas e otimizações no banco de dados de produção.",
+      "Arquitetura e Mensageria: desenhei e implementei soluções de processamento assíncrono utilizando RabbitMQ, promovendo a comunicação eficiente entre microsserviços e elevando a escalabilidade da arquitetura.",
+      "Integrações e APIs (Backend): conduzo o desenvolvimento de serviços backend com Python, Django e Django REST Framework — modelagem de dados, APIs REST e regras de negócio — além de integrações com serviços externos vitais para o negócio, como o CertOne (assinatura digital de diplomas), envolvendo manipulação programática de PDFs, consumo de APIs externas e webhooks para automação segura de processos e sincronização de dados entre sistemas.",
+      "Frontend Avançado: desenvolvo aplicações robustas e escaláveis utilizando React e TypeScript, com forte foco em componentização, performance e adoção de boas práticas de usabilidade (UX).",
+    ],
+  },
+  {
     company: "EduCat",
     role: "Desenvolvedor Full Stack",
-    period: "Jan 2025 – Atual",
-    isCurrent: true,
+    period: "Jan 2025 – Jun 2025",
     highlights: [
       "Atuei no desenvolvimento de soluções end-to-end, integrando sistemas desde a modelagem de dados e construção de APIs REST até a entrega de interfaces modernas no frontend. Trabalhei com Django REST Framework, Python e React/TypeScript, incluindo manipulação e automação de documentos em PDF e a implementação de webhooks para orquestrar fluxos entre sistemas de forma segura e escalável.",
       "Desenvolvi um sistema de funil de vendas baseado em inteligência artificial, integrando as APIs do Grok e do ChatGPT com prompts otimizados, o que resultou em um aumento de 25% na qualificação de leads, impactando diretamente os resultados do negócio.",
