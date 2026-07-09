@@ -34,17 +34,6 @@ const projects: Project[] = [
     tags: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Space Tourism",
-    description:
-      "Site multi-página de turismo espacial com navegação entre destinos, tripulação e tecnologia. Desafio do Frontend Mentor com layout totalmente responsivo.",
-    image: "/projects/space-tourism.jpg",
-    demoUrl:
-      "https://alvarosbernucci.github.io/Space-tourism-multi-page-website/",
-    repoUrl:
-      "https://github.com/AlvaroSBernucci/Space-tourism-multi-page-website",
-    tags: ["HTML", "CSS", "JavaScript"],
-  },
-  {
     title: "Product List with Cart",
     description:
       "Lista de produtos com carrinho de compras funcional: adição e remoção de itens, resumo e confirmação do pedido, com estado gerenciado em JavaScript puro.",
