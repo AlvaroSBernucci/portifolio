@@ -4,6 +4,7 @@ import Navbar from "@/components/portfolio/Navbar";
 import Hero from "@/components/portfolio/Hero";
 import About from "@/components/portfolio/About";
 import Technologies from "@/components/portfolio/Technologies";
+import Projects from "@/components/portfolio/Projects";
 import Experience from "@/components/portfolio/Experience";
 import Education from "@/components/portfolio/Education";
 import Contact from "@/components/portfolio/Contact";
@@ -22,6 +23,7 @@ export default function Portfolio() {
           <Hero />
           <About />
           <Technologies />
+          <Projects />
           <Experience />
           <Education />
           <Contact />
