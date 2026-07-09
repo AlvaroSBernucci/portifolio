@@ -22,6 +22,7 @@ import { useState } from "react";
 const navItems = [
   { label: "Sobre", href: "#sobre" },
   { label: "Tecnologias", href: "#tecnologias" },
+  { label: "Projetos", href: "#projetos" },
   { label: "Experiência", href: "#experiencia" },
   { label: "Formação", href: "#formacao" },
   { label: "Contato", href: "#contato" },
